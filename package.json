@@ -1,8 +1,9 @@
 {
   "name": "leadrefine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parse and validate csv with ease",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node --env-file=.env --watch main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
