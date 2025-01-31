@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { intro, outro, log } from "@clack/prompts";
 
 import { readCSV, writeCSV } from "./lib/io.js";

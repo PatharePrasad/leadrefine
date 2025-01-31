@@ -1,15 +1,18 @@
 {
   "name": "leadrefine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse and validate csv with ease",
   "main": "main.js",
   "type": "module",
+  "bin":{
+    "leadrefine": "./main.js"
+  },
   "scripts": {
     "start": "node --watch main.js",
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Prasad Pathare",
   "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.9.1",
