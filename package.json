@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.9.1",
+    "papaparse": "^5.5.2",
     "yargs": "^17.7.2"
   }
 }
