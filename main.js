@@ -7,7 +7,7 @@ import core from "./lib/core.js";
 
 async function main() {
   // Start interactive CLI
-  intro("DusterCLI app starting");
+  intro("Leadrefine app starting");
 
   const { input, output, errors: errorsFile } = await prompt();
 
